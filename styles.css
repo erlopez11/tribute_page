@@ -19,10 +19,9 @@ body {
 }
 
 .hero_content {
-    padding-left: 80px;
-    padding-top: 20px;
+    padding-left: 5rem;
+    padding-top: 1.25rem;
     line-height: 0.8;
-    position: absolute;
 }
 
 .hero_content h1 {
@@ -34,3 +33,32 @@ body {
     font-size: 1.25rem;
 }
 
+/*Bio Section Image and Caption*/
+
+.portrait_container {
+    max-width: 25%;
+    height: auto;
+}
+
+.portrait {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/*Bio Text*/
+
+.bio {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    margin-right: 50px;
+}
+
+
+/*Gallery*/
+
+.gallery img {
+    width: 368px;
+    height: 382px;
+}
