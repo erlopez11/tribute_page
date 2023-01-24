@@ -12,8 +12,8 @@ body {
 }
 
 img {
-    display: block;
-    max-width: 100%;
+    max-inline-size: 100%;
+    block-size: auto;
 }
 
 /*Hero Image and Content*/
@@ -46,13 +46,11 @@ img {
 .image_container {
     max-width: 25%;
     height: 40%;
-    border: 1px solid red;
 }
 .portrait {
     width: 100%;
     height: auto;
     object-fit: cover;
-    border: 1px solid green;
 }
 
 /*Bio Section*/
@@ -66,9 +64,57 @@ img {
 
 .bio_paragraphs {
     width: 100%;
-    border: 1px solid red;
 }
 
 .paragraph {
     margin-bottom: 10px;
+}
+
+/*Gallery Section*/
+
+.gallery {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 32% 32% 32%;
+    grid-gap: 20px;
+    padding: 0 5rem 0 5rem;
+}
+
+.images_small {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*Quote*/
+
+.divider {
+    border: .5px solid black;
+    margin: 0 10rem;
+    margin-top: 2rem;
+}
+
+.quote {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 5rem 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote_author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+}
+
+blockquote {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+}
+
+.quote_text {
+    font-family: 'Spectral', serif;
 }
