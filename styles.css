@@ -1,64 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Spectral&display=swap');
 
-body {
-    height: 100vh;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: 'Inter', sans-serif;
     font-size: 100%;
 }
 
-/*Hero Image*/
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/*Hero Image and Content*/
 
 .hero {
     background-image: url(images/lilies.jpeg);
     background-size: cover;
     background-position: 0% 25%;
-    height: 25%;
-    display: flex;
+    background-repeat: no-repeat;
+    height: 298px;
 }
 
 .hero_content {
     padding-left: 5rem;
-    padding-top: 1.25rem;
-    line-height: 0.8;
+    padding-top: 5rem;
+    line-height: 1;
 }
 
 .hero_content h1 {
     font-size: 3.75rem;
     font-weight: lighter;
 }
+
 .hero_content h3 {
     font-family: 'Spectral', serif;
     font-size: 1.25rem;
 }
 
-/*Bio Section Image and Caption*/
-
-.portrait_container {
+/*Bio Image and Caption*/
+.image_container {
     max-width: 25%;
-    height: auto;
+    height: 40%;
+    border: 1px solid red;
 }
-
 .portrait {
     width: 100%;
     height: auto;
     object-fit: cover;
+    border: 1px solid green;
 }
 
-/*Bio Text*/
+/*Bio Section*/
 
 .bio {
     display: flex;
-    justify-content: space-between;
-    padding: 2rem;
-    margin-right: 50px;
+    justify-content: space-evenly;
+    gap: 100px;
+    padding: 5rem;
 }
 
+.bio_paragraphs {
+    width: 100%;
+    border: 1px solid red;
+}
 
-/*Gallery*/
-
-.gallery img {
-    width: 368px;
-    height: 382px;
+.paragraph {
+    margin-bottom: 10px;
 }
