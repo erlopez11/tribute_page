@@ -142,3 +142,12 @@ blockquote {
     width: 25%;
     list-style: none;
 }
+
+/*Footer*/
+
+footer {
+    background-image: url(images/lilies.jpeg);
+    background-size: cover;
+    background-position: 10% 25%;
+    height: 79px;
+}
