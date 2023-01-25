@@ -118,3 +118,27 @@ blockquote {
 .quote_text {
     font-family: 'Spectral', serif;
 }
+
+/*23 Original Tales List*/
+
+.book_list {
+    padding: 4rem 5rem;
+}
+
+.booklist_title {
+    font-family: 'Spectral', serif;
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.booklist_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box {
+    width: 25%;
+    list-style: none;
+}
